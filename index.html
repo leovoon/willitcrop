@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>WillItCrop — Social Media Aspect Ratio & Safe Zone Inspector</title>
+    <meta name="title" content="WillItCrop — Social Media Aspect Ratio & Safe Zone Inspector" />
+    <meta name="description" content="Real-time social media aspect ratio inspector. Verify crop overflow, letterboxing, and UI safe zones for TikTok, Instagram Reels, YouTube Shorts, X, Threads, and Facebook." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="theme-color" content="#16171a" />
+    <link rel="canonical" href="https://willitcrop.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://willitcrop.com/" />
+    <meta property="og:title" content="WillItCrop — Social Media Aspect Ratio & Safe Zone Inspector" />
+    <meta property="og:description" content="Real-time aspect ratio inspector, crop overflow detector, and UI safe zone visualizer for social video and images." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WillItCrop — Social Media Aspect Ratio & Safe Zone Inspector" />
+    <meta name="twitter:description" content="Real-time aspect ratio inspector, crop overflow detector, and UI safe zone visualizer." />
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316171a'/%3E%3Cpath d='M8 11h16M11 8v16M21 16v8M16 21h8' stroke='%23e62b1e' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "@id": "https://willitcrop.com/#app",
+            "name": "WillItCrop",
+            "url": "https://willitcrop.com/",
+            "applicationCategory": "MultimediaApplication",
+            "operatingSystem": "All modern browsers",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "description": "Real-time social media aspect ratio inspector, crop loss calculator, and UI safe zone visualizer."
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://willitcrop.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the official safe zone for TikTok and Instagram Reels?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For 9:16 vertical videos (1080x1920 px), keep key visuals away from the top 15%, bottom 25%, and right 18% which are reserved for UI elements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will a 16:9 video crop on TikTok?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Without letterboxing, a 16:9 video in a 9:16 player loses up to 68% of the horizontal frame."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why does an Instagram carousel crop if photos have different ratios?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Instagram locks the carousel to the first slide's aspect ratio. All subsequent slides are cropped to match."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

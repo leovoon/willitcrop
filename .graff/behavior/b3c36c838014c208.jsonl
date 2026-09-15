@@ -1,0 +1,1 @@
+{"kind":"run_started","seq":1,"ts":1788769779.64466,"run_id":"b3c36c838014c208","schema":"codegraff.behavior.v1","version":"0.0.291","unix_ms":1788769779021,"provider":"anthropic","model":"claude-opus-4-8","prompt_sha":"94416182a2ecbf90","effort":"medium"}

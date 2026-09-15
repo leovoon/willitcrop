@@ -1,0 +1,2 @@
+{"kind":"run_started","seq":1,"ts":1788769564.5952451,"run_id":"8fed6b26138fd43d","schema":"codegraff.behavior.v1","version":"0.0.287","unix_ms":1788769563644,"provider":"anthropic","model":"claude-opus-4-8","prompt_sha":"1814df552fb559a8","effort":"medium"}
+{"kind":"run_finished","seq":2,"ts":1788769566.2809348,"run_id":"8fed6b26138fd43d","schema":"codegraff.behavior.v1","status":"closed","local_dropped":0}

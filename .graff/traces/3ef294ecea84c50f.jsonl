@@ -1,0 +1,16 @@
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":0,"ev":"startup_phase","phase":"args","phase_ms":0,"startup_ms":0}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":0,"ev":"startup_phase","phase":"credentials/model","phase_ms":792,"startup_ms":792}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":0,"ev":"startup_phase","phase":"CA warm scheduled","phase_ms":0,"startup_ms":792}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":0,"ev":"startup_phase","phase":"banner","phase_ms":140,"startup_ms":932}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":34,"ev":"startup_phase","phase":"MCP registry","phase_ms":34,"startup_ms":966}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":34,"ev":"startup_phase","phase":"settings/theme","phase_ms":1,"startup_ms":967}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":36,"ev":"startup_phase","phase":"companion","phase_ms":2,"startup_ms":969}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":43,"ev":"startup_phase","phase":"approvals/hooks/fleet","phase_ms":7,"startup_ms":976}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":318,"ev":"startup_phase","phase":"system prompt","phase_ms":275,"startup_ms":1251}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":434,"ev":"recipe","recipe_sha":"184cff09ff018e3c","provider":"anthropic","model":"claude-opus-4-8","effort":"medium","prompt_sha":"94416182a2ecbf90","toolset_sha":"fc8c360f3955f966","task_class":"interactive","harness_version":"0.0.291"}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":434,"ev":"session","detail":"claude-opus-4-8"}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":850,"ev":"startup_phase","phase":"root agent","phase_ms":532,"startup_ms":1783}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":20773,"ev":"first_token","turn":1,"agent":"title","model":"claude-fable-5","from_sub":true,"ms":633}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":20774,"ev":"api","turn":1,"agent":"title","model":"claude-fable-5","ms":634,"req_bytes":3037,"resp_bytes":891,"context_tokens":8074,"cache_read_tokens":0,"is_error":false}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":20905,"ev":"api","turn":1,"agent":"main","model":"claude-fable-5","ms":763,"req_bytes":26694,"resp_bytes":158,"context_tokens":0,"cache_read_tokens":0,"is_error":true}
+{"run_id":"3ef294ecea84c50f","pid":85560,"session_id":"6ac892b3b6b03b3432c68a3cabff7e06","t":20905,"ev":"recipe_outcome","recipe_sha":"31ff84aa12c0b105","task_class":"general","provider":"seekai","model":"claude-fable-5","effort":"medium","success":false,"latency_ms":766,"model_calls":2,"tool_calls":0,"tool_errors":0,"uncached_tokens":734,"cache_read_tokens":0,"cache_permille":0,"cost_microusd":7340,"resp_blocks":0,"resp_types":"","resp_text_len":0}

@@ -1,0 +1,12 @@
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":0,"ev":"startup_phase","phase":"args","phase_ms":0,"startup_ms":0}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":0,"ev":"startup_phase","phase":"credentials/model","phase_ms":1659,"startup_ms":1659}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":0,"ev":"startup_phase","phase":"CA warm scheduled","phase_ms":0,"startup_ms":1659}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":0,"ev":"startup_phase","phase":"banner","phase_ms":639,"startup_ms":2298}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":38,"ev":"startup_phase","phase":"MCP registry","phase_ms":39,"startup_ms":2337}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":38,"ev":"startup_phase","phase":"settings/theme","phase_ms":0,"startup_ms":2337}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":38,"ev":"startup_phase","phase":"companion","phase_ms":0,"startup_ms":2337}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":42,"ev":"startup_phase","phase":"approvals/hooks/fleet","phase_ms":4,"startup_ms":2341}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":269,"ev":"startup_phase","phase":"system prompt","phase_ms":227,"startup_ms":2568}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":516,"ev":"recipe","recipe_sha":"332fb956e7803d46","provider":"anthropic","model":"claude-opus-4-8","effort":"medium","prompt_sha":"1814df552fb559a8","toolset_sha":"989f09efdfc5f7b6","task_class":"interactive","harness_version":"0.0.287"}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":516,"ev":"session","detail":"claude-opus-4-8"}
+{"run_id":"8fed6b26138fd43d","pid":85322,"session_id":"f6b138a3ace521c9447f7085bcccbabb","t":952,"ev":"startup_phase","phase":"root agent","phase_ms":683,"startup_ms":3251}

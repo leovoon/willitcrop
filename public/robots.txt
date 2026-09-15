@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://willitcrop.com/sitemap.xml
